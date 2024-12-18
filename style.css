@@ -1,0 +1,39 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+  background-color: rgb(9, 9, 41);
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+}
+.settings img{
+    width: 110px;
+    height: 110px;
+    border-radius: 50%;
+    margin-left: 90px;
+    margin-top: 90px;
+}
+.container{
+    background: rgb(53, 45, 74);
+    width: 350px;
+    height: 400px;
+    margin-left: 90px;
+   border-radius: 25px;
+}
+ .container p{
+  text-align: center;  
+  color: aliceblue;
+  font-weight: 600;
+}
+.number p{
+    margin-top: 60px;
+    margin-right: 250px;
+    gap: 15px;
+
+}
+.number p:hover{
+    color: grey;
+    transition-duration: 0.3s;
+}
